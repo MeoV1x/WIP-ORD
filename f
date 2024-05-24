@@ -2362,6 +2362,107 @@ local function ShadeID(ID, Duration)
 			i2.StudsOffsetWorldSpace=cframes[rootpart].Position 
 		end
 	})
+
+	addmode("u", {
+		modeEntered=function()
+			i1.Font=e.Font.PermanentMarker
+			i1.FontSize=e.FontSize.Size14 
+			i1.Text="ACE O SPADES" 
+			i1.TextColor3=c3(0.0,0.0,0) -- like this
+			i1.TextStrokeColor3=c3(1.0, 1, 0)
+			task.spawn(ShadeID, 1837829473, 5)
+		end,
+		idle = function()
+			if attackAnimation then return attackAnimation() end
+T.C0=Lerp(T.C0,cfMul(cf(-4-1*sin(sine*1),3-0.15*sin(sine*1),-3.5),angles(1.5707963267948966,-1.5707963267948966+87.26646259971648*sin(sine*0.1),0.4363323129985824)),deltaTime) 
+ R.C0=Lerp(R.C0,cfMul(cf(-3,2.5+1*sin(sine*1),-3.5),angles(1.5707963267948966,3.141592653589793+87.26646259971648*sin(sine*0.1),0.4363323129985824)),deltaTime) 
+Q.C0=Lerp(Q.C0,cfMul(cf(-5,2-1*sin(sine*1),-3.5),angles(1.5707963267948966,87.26646259971648*sin(sine*0.1),0.4363323129985824)),deltaTime) 
+E.C0=Lerp(E.C0,cfMul(cf(-4+1*sin(sine*1),1.5+0.15*sin(sine*1),-3.5),angles(1.5707963267948966,1.5707963267948966+87.26646259971648*sin(sine*0.1),0.4363323129985824)),deltaTime) 
+
+			RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,0,-1),angles(-0.6108652381980153,1.2217304763960306,0.13962634015954636*sin((sine+1)*3))),deltaTime) 
+RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(2,0.6+0.2*sin((sine+0.25)*2),0),angles(-1.5707963267948966,-1.0471975511965976-0.4363323129985824*sin(sine*2),1.5707963267948966)),deltaTime) 
+Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-2.0943951023931953-0.13962634015954636*sin((sine+0.5)*3),0.4363323129985824,3.141592653589793-0.08726646259971647*sin(sine*3))),deltaTime) 
+LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.2 * sin((sine+0.25)*3),0),angles(-0.4363323129985824,-1.0471975511965976+0.2617993877991494*sin(sine*3),-0.4363323129985824)),deltaTime) 
+RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,7+0.5*sin(sine*3),0.75 * sin((sine+0.5)*3)),angles(-1.5707963267948966+0.12217304763960307*sin((sine+0.25)*3),-0.4363323129985824,3.141592653589793-0.08726646259971647*sin((sine+0.5)*3))),deltaTime) 
+LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-0.8,-0.5),angles(1.5707963267948966,-2.0943951023931953,2.0943951023931953-0.13962634015954636*sin((sine+0.7)*3))),deltaTime) 
+--MW_animatorProgressSave: ColossalCrystalGreatsword-Blue_Handle,-5,0,0,1,90,,0,1,2,-1,0,1,0,5000,0,0.1,-3.5,0,0,1,25,,0,,ColossalCrystalGreatsword-Purple_Handle,-4,1,0,1,90,0,0,1,1.5,0.15,0,1,90,5000,0,0.1,-3.5,0,0,1,25,0,0,1,RightLeg,1,0,0,1,-35,0,0,1,-,0,0,1,70,0,0,1,-1,0,0,1,,8,1,3,RightArm,2,0,0,1,-90,0,0,1,0.6,0.2,0.25,2,-60,-25,0,2,0,0,0,1,90,0,0,1,Head,0,0,0,1,-120,-8,0.5,3,1,0,0,1,25,0,0,1,0,0,0,1,180,-5,0,3,ColossalCrystalGreatsword-Red_Handle,-3,0,0,1,90,0,0,1,2.5,1,0,1,180,5000,0,0.1,-3.5,0,0,1,25,0,0,1,LeftArm,-1,0,0,1,-25,0,0,1,,0.2,0.25,3,-60,15,0,3,0,0,0,1,-25,,0,3,Torso,0,0,0,1,-90,7,0.25,3,7,0.5,0,3,-25,0,0,1,,0.75,0.5,3,180,-5,0.5,3,LeftLeg,-1,0,0,1,90,0,0,1,-0.8,0,0,1,-120,0,0,1,-0.5,0,0,1,120,-8,0.7,3,ColossalCrystalGreatsword-Black_Handle,-4,-1,0,1,90,0,0,1,3.,-0.15,0,1,-90,5000,0,0.1,-3.5,0,0,1,25,0,0,1
+			--MW_animatorProgressSave: ColossalCrystalGreatsword-Purple_Handle,-5,0,0,1,0,0,0,1,3,0,0,1,0,-15,0.8,2.5,-0.5,0,0,1,-15,8,0.25,2.5,ColossalCrystalGreatsword-Black_Handle,-5.,0,0,1,,0,0,1,3,0,0,1,180,15,0.8,2.5,0.5,0,0,1,15,-15,0.25,2.5,LeftArm,-1,0,0,1,90,0,0,1,0.,0.15,0.1,2.5,20,6,0.4,2.5,-1,0,0,1,60,0,0,1,LeftLeg,-1,0,0,1,-30,0,0,1,-0.95,0.05,0.15,2.5,-70,0,0,1,-0.2,0,0,1,-15,-5,0.5,2.5,ColossalCrystalGreatsword-Red_Handle,-5,0,0,1,0,0,0,1,3,0,0,1,180,15,0.8,2.5,0.5,0,0,1,-180,-8,0.25,2.5,RightArm,1,0,0,1,-50,0,0,1,0.3,0.19,0.15,2.5,200,5,0.4,2.5,-1,0,0,1,100,0,0,1 ,RightLeg,1,0,0,1,-25,0,0,1,0,0.25,0.15,2.5,70,0,0,1,-1,0,0,1,15,5,0.5,2.5,ColossalCrystalGreatsword-Blue_Handle,-5.,0,0,1,0,0,0,1,3,0,0,1,0,-15,0.8,2.5,-0.5,0,0,1,180,8,0.25,2,Torso,0,0,0,1,-80,-5,0.15,2.5,4,0.5,0,2.5,5,5,0.5,2.5,0,0.2,0.3,2.5,220,5,0.3,2.5,Head,0,0,0,1,-110,5,0.25,2.5,1,0,0,1,5,5,0,2.5,0,0,0,1,150,5,0.65,2
+			i2.StudsOffsetWorldSpace=cframes[rootpart].Position 
+		end,
+		walk = function()
+			if attackAnimation then return attackAnimation() end
+			t.setWalkSpeed(18)
+			local Vfw, Vrt = velbycfrvec()
+
+			local rY, lY = raycastlegs()
+
+			local Ychg=velYchg()/20
+			t.setWalkSpeed(35)
+			T.C0=Lerp(T.C0,cfMul(cf(-4-1*sin(sine*1),3-0.15*sin(sine*1),-3.5),angles(1.5707963267948966,-1.5707963267948966+87.26646259971648*sin(sine*0.1),0.4363323129985824)),deltaTime) 
+ R.C0=Lerp(R.C0,cfMul(cf(-3,2.5+1*sin(sine*1),-3.5),angles(1.5707963267948966,3.141592653589793+87.26646259971648*sin(sine*0.1),0.4363323129985824)),deltaTime) 
+Q.C0=Lerp(Q.C0,cfMul(cf(-5,2-1*sin(sine*1),-3.5),angles(1.5707963267948966,87.26646259971648*sin(sine*0.1),0.4363323129985824)),deltaTime) 
+E.C0=Lerp(E.C0,cfMul(cf(-4+1*sin(sine*1),1.5+0.15*sin(sine*1),-3.5),angles(1.5707963267948966,1.5707963267948966+87.26646259971648*sin(sine*0.1),0.4363323129985824)),deltaTime) 
+
+			RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-0.1 * sin((sine+0.3)*4),-1),angles(-0.9599310885968813,1.2217304763960306,0.4363323129985824-0.17453292519943295*sin((sine+0.25)*4))),deltaTime) 
+			Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-0.6981317007977318+0.08726646259971647*sin((sine+0.55)*4),0,3.141592653589793)),deltaTime) 
+			RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,3+0.2*sin(sine*4),0),angles(-2.705260340591211-0.08726646259971647*sin((sine+0.5)*4),0,3.141592653589793)),deltaTime) 
+			LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.25,0),angles(1.5707963267948966,-1.9198621771937625,2.0943951023931953+0.08726646259971647*sin((sine+0.7)*4))),deltaTime) 
+			RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,0.25,0),angles(-2.0943951023931953,1.2217304763960306,1.5707963267948966-0.08726646259971647*sin((sine+0.7)*4))),deltaTime) 
+			LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-0.95,-0.25),angles(-0.7853981633974483,-1.2217304763960306,-0.4363323129985824+0.08726646259971647*sin((sine+0.25)*4))),deltaTime) 
+			--MW_animatorProgressSave: ColossalCrystalGreatsword-Black_Handle,-3,0,0,1,0,0,0,1,2,0,0,1,15,0,0,1,-0.5,0,0,1,180,5000,0.07,0.15,RightLeg,1,0,0,1,-55,0,0,1,-,-0.1,0.3,4,70,0,0,1,-1,0,0,1,25,-10,0.25,4,Head,0,0,0,1,-40,5,0.55,4,1,0,0,1,0,0,0,1,0,0,0,1,180,0,0,1,ColossalCrystalGreatsword-Red_Handle,-3,0,0,1,0,0,0,1,2,0,0,1,15,0,0,1,-0.5,0,0,1,360,5000,0.05,0.15,Torso,0,0,0,1,-155,-5,0.5,4,3,0.2,0,4,,0,0,1,0,0,0,1,180,0,0,1,ColossalCrystalGreatsword-Blue_Handle,-3,0,0,1,0,0,0,1,2,0,0,1,15,0,0,1,-0.5,0,0,1,90,5000,0.06,0.15,ColossalCrystalGreatsword-Purple_Handle,-3,0,0,1,,0,0,1,2,0,0,1,15,0,0,1,-0.5,0,0,1,270,5000,0.08,0.15,LeftArm,-1,0,0,1,90,0,0,1,0.25,0,0,1,-110,0,0,1,0,0,0,1,120,5,0.7,4,RightArm,1,0,0,1,-120,0,0,1,0.25,0,0,1,70,0,0,1,0,0,0,1,90,-5,0.7,4,LeftLeg,-1,0,0,1,-45,0,0,1,-0.95,0,0,1,-70,0,0,1,-0.25,0,0,1,-25,5,0.25,4
+			i2.StudsOffsetWorldSpace=cframes[rootpart].Position 
+		end
+	})
+
+	addmode("y", {
+		modeEntered=function()
+			i1.Font=e.Font.PermanentMarker
+			i1.FontSize=e.FontSize.Size14 
+			i1.Text="Zextorium" 
+			i1.TextColor3=c3(0.5,0.0,1) -- like this
+			i1.TextStrokeColor3=c3(0.35,0.45, 0.35)
+			task.spawn(ShadeID, 1837829473, 5)
+		end,
+		idle = function()
+			if attackAnimation then return attackAnimation() end
+			Q.C0=Lerp(Q.C0,cfMul(cf(-5,3,0.5),angles(3.141592653589793,0.6108652381980153*sin(sine*2),0.3490658503988659-0.2617993877991494*sin((sine+0.5)*2.5))),deltaTime) 
+			E.C0=Lerp(E.C0,cfMul(cf(5,-5,0),angles(0,-0.6108652381980153*sin(sine*2),0.2617993877991494*sin((sine+0.7)*2.5))),deltaTime) 
+			R.C0=Lerp(R.C0,cfMul(cf(-5,3,-0.5),angles(0,0.6108652381980153*sin(sine*2),2.792526803190927+0.2617993877991494*sin((sine+0.5)*2.5))),deltaTime) 
+			T.C0=Lerp(T.C0,cfMul(cf(5,-5,0.5),angles(0,3.141592653589793+0.6108652381980153*sin(sine*2),-0.2617993877991494*sin((sine+0.7)*2.5))),deltaTime) 
+			
+			RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,4+0.6*sin(sine*2.5),0.3 * sin((sine+0.5)*2.5)),angles(-1.2740903539558606+0.10471975511965978*sin((sine+0.25)*2.5),0,3.6651914291880923)),deltaTime) 
+			RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,-0.1+0.1*sin((sine+0.15)*2.5),-0.9),angles(1.3089969389957472,-0.8726646259971648,-1.3089969389957472-0.13962634015954636*sin((sine+0.35)*2.5))),deltaTime) 
+			LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,-0.3+0.2*sin((sine+0.15)*2.5),-1),angles(1.5707963267948966,0.8726646259971648,1.5707963267948966+0.06981317007977318*sin((sine+0.2)*2.5))),deltaTime) 
+			Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-2.0943951023931953-0.08726646259971647*sin((sine+1)*2.5),0.2617993877991494,2.722713633111154+0.06981317007977318*sin((sine+1.25)*2.5))),deltaTime) 
+			RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-0.3+0.15*sin((sine+0.75)*2.5),-1),angles(-0.8726646259971648,1.2217304763960306,0.4363323129985824+0.2617993877991494*sin((sine+0.25)*2.5))),deltaTime) 
+			LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-0.8+0.1*sin((sine+0.8)*3),-0.3),angles(-0.5235987755982988,-1.1344640137963142,-0.4363323129985824-0.2617993877991494*sin((sine+0.35)*2.5))),deltaTime) 
+			--MW_animatorProgressSave: Torso,0,0,0,1,-73,6,0.25,2.5,4,0.6,0,2.5,0,0,0,1,0,0.3,0.5,2.5,210,0,0,1,RightArm,1,0,0,1,75,0,0,1,-0.1,0.1,0.15,2.5,-50,0,0,1,-0.9,0,0,1,-75,-8,0.35,2.5,LeftArm,-1,0,0,1,90,0,0,1,-0.3,0.2,0.15,2.5,50,0,0,1,-1,0,0,1,90,4,0.2,2.5,ColossalCrystalGreatsword-Red_Handle,-5,0,0,1,180,0,0,1,3,0,0,1,,35,0,2,0.5,0,0,1,20,-15,0.5,2.5,Head,0,0,0,1,-120,-5,1,2.5,1,0,0,1,15,0,0,1,0,0,0,1,156,4,1.25,2.5,ColossalCrystalGreatsword-Blue_Handle,5,0,0,1,0,0,0,1,-5,0,0,1,0,-35,0,2, ,0,0,1,0,15,0.7,2.5,ColossalCrystalGreatsword-Black_Handle,-5,0,0,1,0,0,0,1,3,0,0,1,0,35,0,2,-0.5,0,0,1,160,15,0.5,2.5,ColossalCrystalGreatsword-Purple_Handle,5,0,0,1,,0,0,1,-5,0,0,1,180,35,0,2,0.5,0,0,1,,-15,0.7,2.5,RightLeg,1,0,0,1,-50,0,0,1,-0.3,0.15,0.75,2.5,70,0,0,1,-1,0,0,1,25,15,0.25,2.5,LeftLeg,-1,0,0,1,-30,0,0,1,-0.8,0.1,0.8,3,-65,0,0,1,-0.3,0,0,1,-25,-15,0.35,2.5
+						 i2.StudsOffsetWorldSpace=cframes[rootpart].Position 
+		end,
+		walk = function()
+			if attackAnimation then return attackAnimation() end
+			t.setWalkSpeed(18)
+			local Vfw, Vrt = velbycfrvec()
+
+			local rY, lY = raycastlegs()
+
+			local Ychg=velYchg()/20
+			t.setWalkSpeed(60)
+			Q.C0=Lerp(Q.C0,cfMul(cf(-5,3,0.5),angles(3.141592653589793,0.6108652381980153*sin(sine*2),0.3490658503988659-0.2617993877991494*sin((sine+0.5)*2.5))),deltaTime) 
+			E.C0=Lerp(E.C0,cfMul(cf(5,-5,0),angles(0,-0.6108652381980153*sin(sine*2),0.2617993877991494*sin((sine+0.7)*2.5))),deltaTime) 
+			R.C0=Lerp(R.C0,cfMul(cf(-5,3,-0.5),angles(0,0.6108652381980153*sin(sine*2),2.792526803190927+0.2617993877991494*sin((sine+0.5)*2.5))),deltaTime) 
+			T.C0=Lerp(T.C0,cfMul(cf(5,-5,0.5),angles(0,3.141592653589793+0.6108652381980153*sin(sine*2),-0.2617993877991494*sin((sine+0.7)*2.5))),deltaTime) 
+
+			RightHip.C0=Lerp(RightHip.C0,cfMul(cf(1,-0.1 * sin((sine+0.3)*4),-1),angles(-0.9599310885968813,1.2217304763960306,0.4363323129985824-0.17453292519943295*sin((sine+0.25)*4))),deltaTime) 
+			Neck.C0=Lerp(Neck.C0,cfMul(cf(0,1,0),angles(-0.6981317007977318+0.08726646259971647*sin((sine+0.55)*4),0,3.141592653589793)),deltaTime) 
+			RootJoint.C0=Lerp(RootJoint.C0,cfMul(cf(0,3+0.2*sin(sine*4),0),angles(-2.705260340591211-0.08726646259971647*sin((sine+0.5)*4),0,3.141592653589793)),deltaTime) 
+			LeftShoulder.C0=Lerp(LeftShoulder.C0,cfMul(cf(-1,0.25,0),angles(1.5707963267948966,-1.9198621771937625,2.0943951023931953+0.08726646259971647*sin((sine+0.7)*4))),deltaTime) 
+			RightShoulder.C0=Lerp(RightShoulder.C0,cfMul(cf(1,0.25,0),angles(-2.0943951023931953,1.2217304763960306,1.5707963267948966-0.08726646259971647*sin((sine+0.7)*4))),deltaTime) 
+			LeftHip.C0=Lerp(LeftHip.C0,cfMul(cf(-1,-0.95,-0.25),angles(-0.7853981633974483,-1.2217304763960306,-0.4363323129985824+0.08726646259971647*sin((sine+0.25)*4))),deltaTime) 
+			--MW_animatorProgressSave: ColossalCrystalGreatsword-Black_Handle,-3,0,0,1,0,0,0,1,2,0,0,1,15,0,0,1,-0.5,0,0,1,180,5000,0.07,0.15,RightLeg,1,0,0,1,-55,0,0,1,-,-0.1,0.3,4,70,0,0,1,-1,0,0,1,25,-10,0.25,4,Head,0,0,0,1,-40,5,0.55,4,1,0,0,1,0,0,0,1,0,0,0,1,180,0,0,1,ColossalCrystalGreatsword-Red_Handle,-3,0,0,1,0,0,0,1,2,0,0,1,15,0,0,1,-0.5,0,0,1,360,5000,0.05,0.15,Torso,0,0,0,1,-155,-5,0.5,4,3,0.2,0,4,,0,0,1,0,0,0,1,180,0,0,1,ColossalCrystalGreatsword-Blue_Handle,-3,0,0,1,0,0,0,1,2,0,0,1,15,0,0,1,-0.5,0,0,1,90,5000,0.06,0.15,ColossalCrystalGreatsword-Purple_Handle,-3,0,0,1,,0,0,1,2,0,0,1,15,0,0,1,-0.5,0,0,1,270,5000,0.08,0.15,LeftArm,-1,0,0,1,90,0,0,1,0.25,0,0,1,-110,0,0,1,0,0,0,1,120,5,0.7,4,RightArm,1,0,0,1,-120,0,0,1,0.25,0,0,1,70,0,0,1,0,0,0,1,90,-5,0.7,4,LeftLeg,-1,0,0,1,-45,0,0,1,-0.95,0,0,1,-70,0,0,1,-0.25,0,0,1,-25,5,0.25,4
+			i2.StudsOffsetWorldSpace=cframes[rootpart].Position 
+		end
+	})
 	
 	addmode("r", {
 		modeEntered=function()
